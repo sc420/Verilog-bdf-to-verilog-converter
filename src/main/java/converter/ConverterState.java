@@ -1,0 +1,9 @@
+package converter;
+
+public enum ConverterState {
+    EXPECT_METADATA_START_CHAR,
+    EXPECT_METADATA_BBX,
+    EXPECT_METADATA_BITMAP,
+    EXPECT_BITMAP_PIXELS,
+    EXPECT_METADATA_ENDCHAR,
+}
